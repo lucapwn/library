@@ -1,0 +1,51 @@
+.btn {
+    width: 200px;
+}
+
+.normal-font {
+    font-weight: normal;
+}
+
+#exit:hover {
+    color: #e63946;
+}
+
+#search {
+    width: 140px;
+}
+
+select[id="option"] {
+    height: 38px;
+}
+
+input[type="date"],
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+    width: 460px;
+}
+
+@media only screen and (max-width: 486px) {
+    input[type="date"],
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="password"] {
+        width: 300px;
+    }
+
+    .btn {
+        width: 160px;
+    }
+}
+
+@media only screen and (max-width: 324px) {
+    input[type="date"],
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="password"] {
+        width: 240px;
+    }
+}
